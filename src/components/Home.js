@@ -8,6 +8,10 @@ import TopBar from './TopBar'
 //Estado
 //Propriedade
 
+import reactLogo from  './assets/reactjsIcon.png'
+import nodeIcon from  './assets/nodejsIcon.jpeg'
+import vbaIcon from  './assets/vbaIcon.png'
+
 function Home() {
 
   
@@ -30,7 +34,11 @@ function Home() {
           <p>
             Acredita que sua empresa tem processos que poderiam ser melhorados, mas não sabe como? <strong>Entre em contato!</strong>
           </p>
-
+        <div className="logos">
+          <img className  = "logo" src={reactLogo} ></img>
+          <img className  = "logo" src={nodeIcon} ></img>
+          <img className  = "logo" src={vbaIcon} ></img>
+          </div> 
         </div>
       </div>
     </>

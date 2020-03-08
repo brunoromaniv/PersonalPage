@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #bdb8d7;
+  overflow-y: scroll;
   
 }
 
@@ -81,14 +82,14 @@ code {
 }
 
 img {
-  height: 400px;
+  height: 250px;
   padding-left: 0px;
-  margin-left: -100px;
+  margin-left: -50px;
 }
 
 .perfil {
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 30px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -117,4 +118,21 @@ img {
 .navBar {
   position: fixed;
   width: 100%;
+}
+
+.logos {
+background-color: white;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 600px;
+height: 150px;
+}
+
+.logo {
+  height: 100px;
+  width: 70px;
+  flex: 1;
+  padding: 20px
 }
